@@ -1,6 +1,11 @@
 spring:
   application:
     name: org.cameek.spring_excel
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:metrics.db
+    username: 
+    password: 
     
 excel:
   template: src/main/resources/template.xlsx
